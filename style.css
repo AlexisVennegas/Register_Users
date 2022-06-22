@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+}
+
+
+.caja-usuarionuevo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(186, 186, 186);
+
+}
+
+.pagina-usuarionuevo{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-usuarioregistrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(186, 186, 186);
+
+}
+
+.pagina-usuarioregistrado{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
