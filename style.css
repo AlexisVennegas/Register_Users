@@ -4,6 +4,10 @@
     font-family: 'Open Sans', sans-serif;    
 }
 
+:root{
+    --color-:rgb(53, 0, 0);
+}
+
 h1 {
     text-align: center;
     font-size: 60px;
