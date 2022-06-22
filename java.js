@@ -27,18 +27,17 @@
      //usuario registrado
 
      boton.addEventListener("click", ()=>{
-        // let nombre = document.querySelector(".nombre").value;
+        let nombre = document.querySelector(".nombre").value;
         let clave = document.querySelector(".clave").value;
 
       Object.values(array).forEach(data =>{
-    //    console.log(data)
-    //    console.log(nombre)
+       console.log(data)
+       console.log(nombre)
           if(data.pass == clave){
              console.log("si")
             window.location = "pagina.html"
-            
           } else{
-            document.querySelector(".error").textContent = "Contraseña no registrada"
+            console.log("no")
           }
 
       })
